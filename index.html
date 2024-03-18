@@ -7,55 +7,100 @@
       <title>Proyecto 1 - damigand</title>
    </head>
    <body>
-      <header class="grid-container">
-         <section class="first-section-header grid-container">
-            <span class="account-item menu-item">
-               <img src="assets/menu.png" alt="ayuda" class="extra-small-icon" /><a href="#">MENU</a>
+      <header class="d-grid">
+         <section class="first-section-header d-grid">
+            <span class="account-item flex-column text-center menu-item d-none cursor-pointer">
+               <img src="assets/menu.png" alt="menu" class="extra-small-icon" /><a href="#">MENU</a>
             </span>
-            <article class="flex-container">
-               <a href="https://www.vidalgolosinas.com/" rel="noopener" target="_blank">
-                  <img class="logo" src="https://www.vidalgolosinas.com/media/logo/default/logo.png" alt="logo vidal golosinas" />
+            <article class="d-flex">
+               <a class="al-self-center" href="https://www.vidalgolosinas.com/" rel="noopener" target="_blank">
+                  <img
+                     class="logo al-self-center"
+                     src="https://www.vidalgolosinas.com/media/logo/default/logo.png"
+                     alt="logo vidal golosinas" />
                </a>
             </article>
-            <article class="grid-container first-section-right">
-               <div class="search-bar flex-container">
+            <article class="d-grid first-section-right al-it-center gap-15">
+               <div class="search-bar ju-self-end d-flex">
                   <input type="text" placeholder="Buscar chuche favorita" />
                   <img src="assets/lupa.png" class="extra-small-icon" alt="lupa" />
                </div>
-               <ul class="flex-container account-items">
-                  <li class="account-item search-item"><img src="assets/lupa.png" alt="lupa" /><a href="#">BUSCAR</a></li>
-                  <li class="account-item ayuda-item"><img src="assets/ayuda.png" alt="ayuda" /><a href="#">AYUDA</a></li>
-                  <li class="account-item lista-item"><img src="assets/heart.png" alt="mi lista" /><a href="#">MI LISTA</a></li>
-                  <li class="account-item"><img src="assets/cuenta.png" alt="cuenta" /><a href="#">CUENTA</a></li>
-                  <li class="account-item"><img src="assets/cesta.png" alt="cesta" /><a href="#">CESTA</a></li>
+               <ul class="d-flex account-items l-style-none gap-10">
+                  <li class="account-item d-flex flex-column text-center search-item">
+                     <img class="cursor-pointer al-self-center" src="assets/lupa.png" alt="lupa" /><a href="#">BUSCAR</a>
+                  </li>
+                  <li class="account-item d-flex flex-column text-center ayuda-item">
+                     <img class="cursor-pointer al-self-center" src="assets/ayuda.png" alt="ayuda" /><a
+                        rel="noopener"
+                        target="_blank"
+                        href="https://www.vidalgolosinas.com/atencion-al-cliente"
+                        >AYUDA</a
+                     >
+                  </li>
+                  <li class="account-item d-flex flex-column text-center lista-item">
+                     <img class="cursor-pointer al-self-center" src="assets/heart.png" alt="mi lista" /><a
+                        rel="noopener"
+                        target="_blank"
+                        href="https://www.vidalgolosinas.com/customer/account/login"
+                        >MI LISTA</a
+                     >
+                  </li>
+                  <li class="account-item d-flex flex-column text-center">
+                     <img class="cursor-pointer al-self-center" src="assets/cuenta.png" alt="cuenta" /><a
+                        rel="noopener"
+                        target="_blank"
+                        href="https://www.vidalgolosinas.com/customer/account/login"
+                        >CUENTA</a
+                     >
+                  </li>
+                  <li class="account-item d-flex flex-column text-center">
+                     <img class="cursor-pointer al-self-center" src="assets/cesta.png" alt="cesta" /><a
+                        rel="noopener"
+                        target="_blank"
+                        href="https://www.vidalgolosinas.com/checkout/cart"
+                        >CESTA</a
+                     >
+                  </li>
                </ul>
-               <ul class="flex-container first-section-bottom">
-                  <li><a href="#">CATEGORÍAS</a></li>
-                  <li><a href="#">CHUCHES PARA EVENTOS</a></li>
-                  <li><a href="#">CARRITO DE CHUCHES</a></li>
-                  <li><a href="#">REGALOS CON CHUCHES</a></li>
-                  <li><a href="#">BLOG</a></li>
+               <ul class="d-flex first-section-bottom w-100 l-style-none al-it-center gap-15">
+                  <li><a rel="noopener" target="_blank" href="https://www.vidalgolosinas.com/categorias">CATEGORÍAS</a></li>
+                  <li>
+                     <a rel="noopener" target="_blank" href="https://www.vidalgolosinas.com/chuches-para-eventos">CHUCHES PARA EVENTOS</a>
+                  </li>
+                  <li>
+                     <a rel="noopener" target="_blank" href="https://www.vidalgolosinas.com/carrito-de-chuches">CARRITO DE CHUCHES</a>
+                  </li>
+                  <li>
+                     <a rel="noopener" target="_blank" href="https://www.vidalgolosinas.com/regalos-con-chuches">REGALOS CON CHUCHES</a>
+                  </li>
+                  <li><a rel="noopener" target="_blank" href="https://www.vidalgolosinas.com/blog">BLOG</a></li>
                </ul>
-               <button class="header-button">¿Eres profesional?</button>
+               <a
+                  rel="noopener"
+                  target="_blank"
+                  href="https://www.vidalgolosinas.com/profesional"
+                  class="header-button ju-self-end text-center"
+                  >¿Eres profesional?</a
+               >
             </article>
          </section>
-         <section class="second-section-header flex-container">
-            <article class="flex-container">
+         <section class="second-section-header text-center d-flex">
+            <article class="d-flex gap-10">
                <img class="small-icon" src="https://www.vidalgolosinas.com/media/header/muestra-gratis.svg" alt="muestra gratis" />
                <div>
                   <h5>MUESTRA GRATIS</h5>
                   <p>con tu pedido</p>
                </div>
             </article>
-            <article class="flex-container">
-               <img class="small-icon" src="https://www.vidalgolosinas.com/media/header/muestra-gratis.svg" alt="muestra gratis" />
+            <article class="d-flex gap-10">
+               <img class="small-icon" src="https://www.vidalgolosinas.com/media/header/entrega-24h.svg" alt="entrega 24 horas" />
                <div>
                   <h5>ENTREGA 24H</h5>
                   <p>L - J hasta las 16:00</p>
                </div>
             </article>
-            <article class="flex-container">
-               <img class="small-icon" src="https://www.vidalgolosinas.com/media/header/muestra-gratis.svg" alt="muestra gratis" />
+            <article class="d-flex gap-10">
+               <img class="small-icon" src="https://www.vidalgolosinas.com/media/header/envios-gratis.svg" alt="envíos gratis" />
                <div>
                   <h5>ENVÍOS GRATIS</h5>
                   <p>sin pedido mínimo</p>
@@ -64,125 +109,148 @@
          </section>
       </header>
       <main>
-         <section class="hero flex-container">
+         <section class="hero main-spacing flex-column ju-con-center d-flex">
             <article id="top">
-               <ul class="grid-container candy-types">
-                  <li class="flex-container candy-type-item golosinas grey-bottom-border">
-                     <a href="https://www.vidalgolosinas.com/categorias/golosinas" rel="noopener" taget="_blank">
+               <ul class="d-grid candy-types text-center gap-15">
+                  <li class="d-flex candy-type-item golosinas grey-bottom-border">
+                     <a
+                        href="https://www.vidalgolosinas.com/categorias/golosinas"
+                        rel="noopener"
+                        target="_blank"
+                        class="cursor-pointer w-100">
                         <p>Golosinas</p>
                         <img
                            src="https://www.vidalgolosinas.com/media/snowdog/menu/node/i/m/imagenes-07.png"
                            alt="golosina de fresa"
-                           class="cover-content" />
+                           class="cover-content-height" />
                      </a>
                   </li>
-                  <li class="flex-container candy-type-item chicles grey-bottom-border">
-                     <a href="https://www.vidalgolosinas.com/categorias/chicles" rel="noopener" target="_blank">
+                  <li class="d-flex candy-type-item chicles grey-bottom-border">
+                     <a
+                        href="https://www.vidalgolosinas.com/categorias/chicles"
+                        rel="noopener"
+                        target="_blank"
+                        class="cursor-pointer w-100">
                         <p>Chicles</p>
                         <img
                            src="https://www.vidalgolosinas.com/media/snowdog/menu/node/i/m/imagenes-08.png"
                            alt="chicle de melon"
-                           class="cover-content" />
+                           class="cover-content-height" />
                      </a>
                   </li>
-                  <li class="flex-container candy-type-item regaliz grey-bottom-border">
-                     <a href="https://www.vidalgolosinas.com/categorias/regaliz" rel="noopener" target="_blank">
+                  <li class="d-flex candy-type-item regaliz grey-bottom-border">
+                     <a
+                        href="https://www.vidalgolosinas.com/categorias/regaliz"
+                        rel="noopener"
+                        target="_blank"
+                        class="cursor-pointer w-100">
                         <p>Regaliz</p>
                         <img
                            src="https://www.vidalgolosinas.com/media/snowdog/menu/node/i/m/imagenes-09.png"
                            alt="regaliz de fresa"
-                           class="cover-content" />
+                           class="cover-content-height" />
                      </a>
                   </li>
-                  <li class="flex-container candy-type-item caramelo grey-bottom-border">
-                     <a href="https://www.vidalgolosinas.com/categorias/caramelos" rel="noopener" target="_blank">
+                  <li class="d-flex candy-type-item caramelo grey-bottom-border">
+                     <a
+                        href="https://www.vidalgolosinas.com/categorias/caramelos"
+                        rel="noopener"
+                        target="_blank"
+                        class="cursor-pointer w-100">
                         <p>Caramelo</p>
                         <img
                            src="https://www.vidalgolosinas.com/media/snowdog/menu/node/i/m/imagenes-10.png"
                            alt="caramelo de fresa"
-                           class="cover-content" />
+                           class="cover-content-height" />
                      </a>
                   </li>
-                  <li class="flex-container candy-type-item nubes grey-bottom-border">
-                     <a href="https://www.vidalgolosinas.com/categorias/nubes" rel="noopener" target="_blank">
+                  <li class="d-flex candy-type-item nubes grey-bottom-border">
+                     <a href="https://www.vidalgolosinas.com/categorias/nubes" rel="noopener" target="_blank" class="cursor-pointer w-100">
                         <p>Nubes</p>
                         <img
                            src="https://www.vidalgolosinas.com/media/snowdog/menu/node/i/m/imagenes-11.png"
                            alt="nube de chuche"
-                           class="cover-content" />
+                           class="cover-content-height" />
                      </a>
                   </li>
-                  <li class="flex-container candy-type-item dipper grey-bottom-border">
-                     <a href="https://www.vidalgolosinas.com/categorias/dipper" rel="noopener" target="_blank">
+                  <li class="d-flex candy-type-item dipper grey-bottom-border">
+                     <a href="https://www.vidalgolosinas.com/categorias/dipper" rel="noopener" target="_blank" class="cursor-pointer w-100">
                         <p>Dipper</p>
                         <img
                            src="https://www.vidalgolosinas.com/media/snowdog/menu/node/i/m/imagenes-12.png"
                            alt="dipper"
-                           class="cover-content" />
+                           class="cover-content-height" />
                      </a>
                   </li>
                </ul>
             </article>
-            <article id="middle">
-               <div class="grid-container candy-offers">
+            <article>
+               <div class="d-grid candy-offers w-100 gap-20">
                   <a
                      href="https://www.vidalgolosinas.com/chuches-para-comuniones"
-                     class="grid-container discount-panel"
+                     class="d-grid discount-panel al-it-center gap-20"
                      rel="noopener"
                      target="_blank">
                      <img
                         src="https://www.vidalgolosinas.com/media/vidal_slider/image/banner-comuniones-12.png"
                         alt="golosinas de comuniones"
-                        class="cover-content" />
-                     <span class="discount-panel-text candy-offer flex-container">
+                        class="cover-content-height" />
+                     <span class="discount-panel-text ju-con-start flex-column al-it-start gap-15 d-flex">
                         <h3>12% de descuento</h3>
                         <p>En productos de la categoría</p>
-                        <button>¡LAS QUIERO!</button>
+                        <button class="boton-primario">¡LAS QUIERO!</button>
                      </span>
                   </a>
                   <a
                      href="https://www.vidalgolosinas.com/categorias/nubes?sabor=146"
-                     class="grid-container chocolate-panel"
+                     class="d-grid chocolate-panel al-it-center gap-20"
                      rel="noopener"
                      target="_blank">
                      <img
                         src="https://www.vidalgolosinas.com/media/vidal_slider/image/banner-chocolateados-2023-2.png"
                         alt="golosinas de chocolate"
-                        class="cover-content" />
-                     <span class="flex-container candy-offer">
+                        class="cover-content-height" />
+                     <span class="d-flex flex-column ju-con-start al-it-start gap-15">
                         <h3>Chocolateados</h3>
                         <p>¡Recién hechos!</p>
-                        <button>COMPRAR</button>
+                        <button class="boton-primario">COMPRAR</button>
                      </span>
                   </a>
                   <a
                      href="https://www.vidalgolosinas.com/masvidal.html"
-                     class="grid-container vidal-panel"
-                     class="cover-content-height"
+                     class="d-grid vidal-panel al-it-center gap-20"
                      rel="noopener"
                      target="_blank">
                      <img
                         src="https://www.vidalgolosinas.com/media/vidal_slider/image/banner-doypacks.png"
                         alt="golosinas vidal"
-                        class="cover-content" />
-                     <span class="flex-container candy-offer">
+                        class="cover-content-height" />
+                     <span class="d-flex flex-column al-it-start gap-15">
                         <h3>Tu momento Vidal</h3>
                         <p>Más sabroso, más natural...</p>
-                        <button>VER MÁS</button>
+                        <button class="boton-primario">VER MÁS</button>
                      </span>
                   </a>
                </div>
             </article>
             <article id="bottom">
-               <div class="grid-container candy-sections">
-                  <a href="#" class="grid-container candy-section grey-bottom-border">
+               <div class="d-grid candy-sections gap-10">
+                  <a
+                     href="https://www.vidalgolosinas.com/categorias/chuches-sin-gluten"
+                     class="d-grid candy-section relative text-center al-it-center grey-bottom-border"
+                     rel="noopener"
+                     target="_blank">
                      <img
                         src="https://www.vidalgolosinas.com/media/snowdog/menu/node/i/m/imagenes-14.png"
                         alt="chuches sin gluten"
                         class="absolute-icon-left" />
                      <p>CHUCHES SIN GLUTEN</p>
                   </a>
-                  <a href="#" class="grid-container candy-section grey-bottom-border">
+                  <a
+                     href="https://www.vidalgolosinas.com/chuches-envueltas-individualmente"
+                     rel="noopener"
+                     target="_blank"
+                     class="d-grid candy-section text-center al-it-center grey-bottom-border">
                      <img
                         src="https://www.vidalgolosinas.com/media/snowdog/menu/node/i/m/imagenes-15.png"
                         class="absolute-icon-left"
@@ -192,7 +260,11 @@
                         INDIVIDUALMENTE
                      </p>
                   </a>
-                  <a href="#" class="grid-container candy-section grey-bottom-border">
+                  <a
+                     href="https://www.vidalgolosinas.com/categorias/chuches-veganas"
+                     class="d-grid candy-section text-center al-it-center grey-bottom-border"
+                     rel="noopener"
+                     target="_blank">
                      <img
                         src="https://www.vidalgolosinas.com/media/snowdog/menu/node/i/m/imagenes-16.png"
                         alt="chuches veganas"
@@ -202,7 +274,528 @@
                </div>
             </article>
          </section>
+         <section class="destacadas main-spacing flex-column al-it-center gap-30 d-flex">
+            <h2>Nuestras chuches destacadas</h2>
+            <article class="destacadas-titulos ju-con-spbtw gap-30 d-flex">
+               <h3 class="cursor-pointer">TOP VENTAS</h3>
+               <h3 class="cursor-pointer">DESTACADOS</h3>
+               <h3 class="cursor-pointer">NOVEDADES</h3>
+            </article>
+            <div class="chuches-destacadas gap-30 d-grid">
+               <article class="d-flex chuche-destacada flex-column">
+                  <div class="imagen-destacada cursor-pointer relative">
+                     <a href="https://www.vidalgolosinas.com/cintas-pica-fresa-bolsa-90g.html" rel="noopener" target="_blank">
+                        <img
+                           src="https://www.vidalgolosinas.com/media/catalog/product/cache/2ef19c5f0f19502f9fe72d4818915e54/c/i/cintas-pica-fresa-14-bolsas-90g-1-24.jpg"
+                           alt="Cintas Pica Fresa"
+                           class="cover-content-height" />
+                        <img
+                           src="https://www.vidalgolosinas.com/media/catalog/product/cache/2ef19c5f0f19502f9fe72d4818915e54/c/i/cintas-pica-fresa-14-bolsas-90g-2-24.jpg"
+                           alt="Cintas Pica Fresa"
+                           class="cover-content-height hover absolute top-left" />
+                     </a>
+                  </div>
+                  <a
+                     href="https://www.vidalgolosinas.com/cintas-pica-fresa-bolsa-90g.html"
+                     rel="noopener"
+                     target="_blank"
+                     class="boton-comprar d-none hover text-center">
+                     COMPRAR
+                  </a>
+                  <div class="destacada-info flex-column gap-5 d-flex">
+                     <p>Cintas Pica Fresa bolsa 90g</p>
+                     <div class="d-flex precio ju-con-spbtw al-it-center">
+                        <p>13,30€</p>
+                        <img src="assets/heart_black.png" alt="favorito" />
+                     </div>
+                     <p class="hover text-center">Cantidad: 12uds / 90g</p>
+                  </div>
+               </article>
+               <article class="d-flex chuche-destacada flex-column">
+                  <div class="imagen-destacada cursor-pointer relative">
+                     <a href="https://www.vidalgolosinas.com/pica-rodajas-kiwi-bolsa-1-5kg.html" rel="noopener" target="_blank">
+                        <img
+                           src="https://www.vidalgolosinas.com/media/catalog/product/cache/2ef19c5f0f19502f9fe72d4818915e54/p/i/pica-rodajas-kiwi-bolsa-1_5kg-1-24.jpg"
+                           alt="Pica Rodajas Kiwi"
+                           class="cover-content-height" />
+                        <img
+                           src="https://www.vidalgolosinas.com/media/catalog/product/cache/2ef19c5f0f19502f9fe72d4818915e54/p/i/pica-rodajas-kiwi-bolsa-1_5kg-2-24.jpg"
+                           alt="Pica Rodajas Kiwi"
+                           class="cover-content-height hover absolute top-left" />
+                        <div class="absolute top-right">
+                           <a href="#" class="tag d-block relative text-center sin-gluten">sin gluten</a>
+                           <a href="#" class="tag d-block relative text-center sin-grasa">sin grasa</a>
+                        </div>
+                     </a>
+                  </div>
+                  <a
+                     href="https://www.vidalgolosinas.com/pica-rodajas-kiwi-bolsa-1-5kg.html"
+                     rel="noopener"
+                     target="_blank"
+                     class="boton-comprar d-none hover text-center">
+                     COMPRAR
+                  </a>
+                  <div class="destacada-info flex-column gap-5 d-flex">
+                     <p>Pica Rodajas Kiwi bolsa 1,5kg</p>
+                     <div class="d-flex precio ju-con-spbtw al-it-center">
+                        <p>12,69€</p>
+                        <img src="assets/heart_black.png" alt="favorito" />
+                     </div>
+                     <p class="hover text-center">Cantidad: 250uds / 1,5kg</p>
+                  </div>
+               </article>
+               <article class="d-flex chuche-destacada flex-column">
+                  <div class="imagen-destacada cursor-pointer relative">
+                     <a href="https://www.vidalgolosinas.com/veggie-mallow-naturall-150uds.html" rel="noopener" target="_blank">
+                        <img
+                           src="https://www.vidalgolosinas.com/media/catalog/product/cache/2ef19c5f0f19502f9fe72d4818915e54/v/e/veggie-mallows-naturall-veganas-chuches-online-1-24.jpg"
+                           alt="Veggie Mallow Natural"
+                           class="cover-content-height" />
+                        <img
+                           src="https://www.vidalgolosinas.com/media/catalog/product/cache/2ef19c5f0f19502f9fe72d4818915e54/v/e/veggie-mallows-naturall-veganas-chuches-online-2-24.jpg"
+                           alt="Veggie Mallow Natural"
+                           class="cover-content-height hover absolute top-left" />
+                        <div class="absolute top-right">
+                           <a href="#" class="tag d-block relative text-center sin-gluten">sin gluten</a>
+                           <a href="#" class="tag d-block relative text-center sin-grasa">sin grasa</a>
+                           <a href="#" class="tag d-block relative text-center vegano">vegano</a>
+                        </div>
+                     </a>
+                  </div>
+                  <a
+                     href="https://www.vidalgolosinas.com/veggie-mallow-naturall-150uds.html"
+                     rel="noopener"
+                     target="_blank"
+                     class="boton-comprar d-none hover text-center">
+                     COMPRAR
+                  </a>
+                  <div class="destacada-info flex-column gap-5 d-flex">
+                     <p>Veggie Mallow - Natural - 10 bolsas</p>
+                     <div class="d-flex precio ju-con-spbtw al-it-center">
+                        <p>21,50€</p>
+                        <img src="assets/heart_black.png" alt="favorito" />
+                     </div>
+                     <p class="hover text-center">Cantidad: 150uds / 900g</p>
+                  </div>
+               </article>
+               <article class="d-flex chuche-destacada flex-column">
+                  <div class="imagen-destacada cursor-pointer relative">
+                     <a href="https://www.vidalgolosinas.com/la-creme-toffee-900g.html" rel="noopener" target="_blank">
+                        <img
+                           src="https://www.vidalgolosinas.com/media/catalog/product/cache/2ef19c5f0f19502f9fe72d4818915e54/l/a/la-creme-toffee-sin-azucar-900g-chuches-online-1-24.jpg"
+                           alt="LaCrême Toffee sin Azúcar"
+                           class="cover-content-height" />
+                        <img
+                           src="https://www.vidalgolosinas.com/media/catalog/product/cache/2ef19c5f0f19502f9fe72d4818915e54/l/a/la-creme-toffee-sin-azucar-900g-chuches-online-2-24.jpg"
+                           alt="LaCrême Toffee sin Azúcar"
+                           class="cover-content-height hover absolute top-left" />
+                        <div class="absolute top-right">
+                           <a href="#" class="tag d-block relative text-center sin-azucar">sin azúcar</a>
+                           <a href="#" class="tag d-block relative text-center sin-gluten">sin gluten</a>
+                        </div>
+                     </a>
+                  </div>
+                  <a
+                     href="https://www.vidalgolosinas.com/la-creme-toffee-900g.html"
+                     rel="noopener"
+                     target="_blank"
+                     class="boton-comprar d-none hover text-center">
+                     COMPRAR
+                  </a>
+                  <div class="destacada-info flex-column gap-5 d-flex">
+                     <p>LaCrême Toffee sin Azúcar bolsa 90g</p>
+                     <div class="d-flex precio ju-con-spbtw al-it-center">
+                        <p>17,30€</p>
+                        <img src="assets/heart_black.png" alt="favorito" />
+                     </div>
+                     <p class="hover text-center">Cantidad: 300uds / 900g</p>
+                  </div>
+               </article>
+               <article class="d-flex chuche-destacada flex-column">
+                  <div class="imagen-destacada cursor-pointer relative">
+                     <a href="https://www.vidalgolosinas.com/ladrillos-pica-fresa-bolsa-1-5kg.html" rel="noopener" target="_blank">
+                        <img
+                           src="https://www.vidalgolosinas.com/media/catalog/product/cache/2ef19c5f0f19502f9fe72d4818915e54/l/a/ladrillos-pica-fresa-bolsa-1-5kg-1-24.jpg"
+                           alt="Ladrillos Pica Fresa"
+                           class="cover-content-height" />
+                        <img
+                           src="https://www.vidalgolosinas.com/media/catalog/product/cache/2ef19c5f0f19502f9fe72d4818915e54/l/a/ladrillos-pica-fresa-bolsa-1_5kg-2-24.jpg"
+                           alt="Ladrillos Pica Fresa"
+                           class="cover-content-height hover absolute top-left" />
+                        <div class="absolute top-right">
+                           <a href="#" class="tag d-block relative text-center vegano">vegano</a>
+                        </div>
+                     </a>
+                  </div>
+                  <a
+                     href="https://www.vidalgolosinas.com/ladrillos-pica-fresa-bolsa-1-5kg.html"
+                     rel="noopener"
+                     target="_blank"
+                     class="boton-comprar d-none hover text-center">
+                     COMPRAR
+                  </a>
+                  <div class="destacada-info flex-column gap-5 d-flex">
+                     <p>Ladrillos Pica Fresa bolsa 1,5kg</p>
+                     <div class="d-flex precio ju-con-spbtw al-it-center">
+                        <p>12,69€</p>
+                        <img src="assets/heart_black.png" alt="favorito" />
+                     </div>
+                     <p class="hover text-center">Cantidad: 250uds / 1,5kg</p>
+                  </div>
+               </article>
+            </div>
+            <article>
+               <a href="https://www.vidalgolosinas.com/top-ventas" rel="noopener" target="_blank" class="boton-secundario">DESCUBRIR MÁS</a>
+            </article>
+         </section>
+         <section class="newsletter main-spacing">
+            <article class="flex-column d-flex gap-30">
+               <h2 class="text-center">Newsletter</h2>
+               <form action="#">
+                  <div class="d-grid newsletter-content">
+                     <img
+                        src="https://www.vidalgolosinas.com/media/vidal/newsletter-home.png"
+                        alt="suscripcion de cupones"
+                        class="cover-content-height" />
+                     <div class="d-flex newsletter-text flex-column al-it-start gap-10">
+                        <h3>Suscríbete y llévate un cupón de <span>descuento</span></h3>
+                        <input type="email" name="email" id="email" placeholder="Dirección de correo electrónico" class="w-100" />
+                        <div class="newsletter-checkbox">
+                           <input type="checkbox" name="conditions" id="conditions" />
+                           <label for="conditions">
+                              He leído y acepto las condiciones de la
+                              <a href="https://www.vidalgolosinas.com/politica-de-privacidad" rel="noopener" target="_blank">
+                                 política de privacidad
+                              </a>
+                           </label>
+                        </div>
+                        <a class="boton-secundario"> SUSCRIBIRSE </a>
+                     </div>
+                  </div>
+               </form>
+            </article>
+            <p>
+               * Cupón de descuento válido solo para un uso y para pedidos iguales o superiores a 25€. No se podrá combinar con otras
+               ofertas y tampoco podrá aplicarse en el área de venta profesional y organizaciones.
+            </p>
+         </section>
+         <section class="ideas-chuches main-spacing flex-column al-it-center gap-15 d-flex">
+            <h2>Ideas con chuches</h2>
+            <p>¡Bienvenido al blog más dulce!</p>
+            <div class="ideas gap-20 d-grid">
+               <article class="idea flex-column al-it-center d-flex">
+                  <a href="https://www.vidalgolosinas.com/blog/post/ideas-dulces-picnic-inolvidable" rel="noopener" target="_blank">
+                     <img
+                        src="https://www.vidalgolosinas.com/media/mageplaza/blog/post/c/e/cesta-llena-chuches-fresas_3.jpg"
+                        alt="5 ideas para picnic"
+                        class="cover-content-width" />
+                  </a>
+                  <div class="idea-text w-100 text-center">5 ideas dulces para llevar a un picnic inolvidable</div>
+               </article>
+               <article class="idea flex-column al-it-center d-flex">
+                  <a href="https://www.vidalgolosinas.com/blog/post/chuches-cumplea-os-unicornio" rel="noopener" target="_blank">
+                     <img
+                        src="https://www.vidalgolosinas.com/media/mageplaza/blog/post/c/h/chuches-cumplea_os-unicornio_3.jpg"
+                        alt="5 ideas para cumpleaños"
+                        class="cover-content-width" />
+                  </a>
+                  <div class="idea-text w-100 text-center">5 ideas dulces para un cumpleaños de temática de unicornio inolvidable</div>
+               </article>
+               <article class="idea flex-column al-it-center d-flex">
+                  <a href="https://www.vidalgolosinas.com/blog/post/como-hacer-tarros-chuches-para-comunion" rel="noopener" target="_blank">
+                     <img
+                        src="https://www.vidalgolosinas.com/media/mageplaza/blog/post/t/a/tarros-llenos-chuches-con-lazo_3.jpg"
+                        alt="hacer tus propios tarros"
+                        class="cover-content-width" />
+                  </a>
+                  <div class="idea-text w-100 text-center">¿Cómo hacer tus propios tarros de chuches para la comunión paso a paso?</div>
+               </article>
+               <article class="idea flex-column al-it-center d-flex">
+                  <a href="https://www.vidalgolosinas.com/blog/post/que-meter-en-una-pinata" rel="noopener" target="_blank">
+                     <img
+                        src="https://www.vidalgolosinas.com/media/mageplaza/blog/post/p/i/pinata-rellena-chuches-rolla-belta-pica_3.jpg"
+                        alt="qué meter en una piñata"
+                        class="cover-content-width" />
+                  </a>
+                  <div class="idea-text w-100 text-center">¿Qué meter en una piñata? Ideas y consejos</div>
+               </article>
+               <article class="idea flex-column al-it-center d-flex">
+                  <a href="https://www.vidalgolosinas.com/blog/post/ideas-romanticas-sorprender-pareja" rel="noopener" target="_blank">
+                     <img
+                        src="https://www.vidalgolosinas.com/media/mageplaza/blog/post/c/a/carta-san-valentin-chuches-corazon_3.jpg"
+                        alt="6 ideas dulces para sorprender"
+                        class="cover-content-width" />
+                  </a>
+                  <div class="idea-text w-100 text-center">6 ideas muy dulces para sorprender a tu pareja</div>
+               </article>
+            </div>
+            <a href="https://www.vidalgolosinas.com/blog" rel="noopener" target="_blank" class="boton-secundario">MÁS IDEAS</a>
+         </section>
+         <section class="redes-sociales main-spacing">
+            <article class="d-grid">
+               <a href="https://www.instagram.com/reel/CwxHNZRrPX2/" rel="noopener" target="_blank">
+                  <img
+                     src="https://www.vidalgolosinas.com/media/vidal_rrss/instagram/in1_1.png"
+                     alt="Publicación de instagram"
+                     class="cover-content-width cover-content-height" />
+               </a>
+               <a href="https://www.instagram.com/reel/Ckdg40Kq9PD/" rel="noopener" target="_blank">
+                  <img
+                     src="https://www.vidalgolosinas.com/media/vidal_rrss/instagram/in2_1.png"
+                     alt="Publicación de instagram"
+                     class="cover-content-width cover-content-height" />
+               </a>
+               <div class="redes-sociales-texto flex-column text-center ju-con-center al-it-center gap-20 d-flex">
+                  <h2>Somos sociales</h2>
+                  <p>
+                     Preparaos para salivar delante de la pantalla. Nuestros perfiles en redes sociales están llenos de dulzura y muchas
+                     sorpresas. ¡Seguidnos para pasar un buen rato y ganar chuches!
+                  </p>
+                  <a href="https://www.instagram.com/vidalgolosinas/" rel="noopener" target="_blank" class="boton-secundario">VER TODO</a>
+                  <div class="d-flex logos ju-con-center gap-5">
+                     <a href="https://www.instagram.com/vidalgolosinas/" rel="noopener" target="_blank">
+                        <img
+                           src="https://www.vidalgolosinas.com/media/vidal/instagram-home.svg"
+                           alt="instagram vidal golosinas"
+                           class="small-icon" />
+                     </a>
+                     <a href="https://twitter.com/Vidal_Golosinas" rel="noopener" target="_blank">
+                        <img src="https://www.vidalgolosinas.com/media/vidal/x-home.svg" alt="x vidal golosinas" class="small-icon" />
+                     </a>
+                     <a href="https://www.facebook.com/GolosinasVidal" rel="noopener" target="_blank">
+                        <img
+                           src="https://www.vidalgolosinas.com/media/vidal/facebook-home.svg"
+                           alt="facebook vidal golosinas"
+                           class="small-icon" />
+                     </a>
+                     <a href="https://www.pinterest.es/vidalgolosinas/" rel="noopener" target="_blank">
+                        <img
+                           src="https://www.vidalgolosinas.com/media/vidal/pinterest-home.svg"
+                           alt="pinterest vidal golosinas"
+                           class="small-icon" />
+                     </a>
+                     <a href="https://www.linkedin.com/company/vidalgolosinas" rel="noopener" target="_blank">
+                        <img
+                           src="https://www.vidalgolosinas.com/media/vidal/linkedin-home.svg"
+                           alt="linkedin vidal golosinas"
+                           class="small-icon" />
+                     </a>
+                     <a href="https://www.tiktok.com/@vidalgolosinas" rel="noopener" target="_blank">
+                        <img
+                           src="https://www.vidalgolosinas.com/media/vidal/tiktok-home.svg"
+                           alt="tiktok vidal golosinas"
+                           class="small-icon" />
+                     </a>
+                  </div>
+               </div>
+               <a href="https://www.instagram.com/p/C30EjouC9V4/?img_index=1" rel="noopener" target="_blank">
+                  <img
+                     src="https://www.vidalgolosinas.com/media/vidal_rrss/instagram/in3_1.png"
+                     alt="Publicación de instagram"
+                     class="cover-content-width cover-content-height" />
+               </a>
+               <a href="https://www.instagram.com/reel/C3pyywWC50v/" rel="noopener" target="_blank">
+                  <img
+                     src="https://www.vidalgolosinas.com/media/vidal_rrss/instagram/in4_1.png"
+                     alt="Publicación de instagram"
+                     class="cover-content-width cover-content-height" />
+               </a>
+               <a href="https://www.instagram.com/p/C3keNc7itK6/?img_index=1" rel="noopener" target="_blank">
+                  <img
+                     src="https://www.vidalgolosinas.com/media/vidal_rrss/instagram/in5_1.png"
+                     alt="Publicación de instagram"
+                     class="cover-content-width cover-content-height" />
+               </a>
+               <a href="https://www.instagram.com/reel/C3U_dEhiux5/" rel="noopener" target="_blank">
+                  <img
+                     src="https://www.vidalgolosinas.com/media/vidal_rrss/instagram/ig-3_2.png"
+                     alt="Publicación de instagram"
+                     class="cover-content-width cover-content-height" />
+               </a>
+               <a href="https://www.instagram.com/reel/C3SkS5Jq6ae/" rel="noopener" target="_blank">
+                  <img
+                     src="https://www.vidalgolosinas.com/media/vidal_rrss/instagram/ig-4_2.png"
+                     alt="Publicación de instagram"
+                     class="cover-content-width cover-content-height" />
+               </a>
+               <a href="https://www.instagram.com/reel/C3QNspRC2b2/" rel="noopener" target="_blank">
+                  <img
+                     src="https://www.vidalgolosinas.com/media/vidal_rrss/instagram/ig-5_1.png"
+                     alt="Publicación de instagram"
+                     class="cover-content-width cover-content-height" />
+               </a>
+            </article>
+         </section>
+         <section class="encuesta main-spacing gap-20 d-grid">
+            <img
+               src="https://www.vidalgolosinas.com/media/vidal/encuesta/logo.svg"
+               alt="me gusta vidal"
+               class="cover-content-width al-self-center" />
+            <article class="flex-column al-it-start gap-15 d-flex">
+               <h2>¿Nos ayudas?</h2>
+               <p>
+                  Queremos convertirnos en tu <strong>tienda de referencia para tus compras online de golosinas.</strong> <br />
+                  Por eso, tu opinión es fundamental para poder seguir creciendo juntos. <br />
+                  Cuéntanos cómo ha sido tu experiencia de compra en nuestra tienda y consigue de forma inmediate un
+                  <strong>cupón de descuento de un 10%.</strong>
+               </p>
+               <p class="d-none">
+                  <strong>10% dto extra <br /></strong>
+                  respondiendo 5 preguntas
+               </p>
+               <a href="https://www.vidalgolosinas.com/customer/account/login" rel="noopener" target="_blank" class="boton-secundario"
+                  >IR A LA ENCUESTA</a
+               >
+            </article>
+         </section>
+         <section class="informacion-vidal main-spacing d-grid">
+            <article class="d-flex info-text flex-column gap-20">
+               <p>
+                  Bienvenido a <strong>Tienda Vidal Golosinas.</strong> Somos <strong>fabricantes de chuches</strong> desde el 1963 y muy
+                  conocidos por algunas de nuestras chuches, como nuestros famosos
+                  <strong>besitos, fresas silvestres, nubes, ladrillos, dentaduras, fresa de nata, dedos, fresones, pulpos</strong>, etc.
+               </p>
+               <p>
+                  Nos decantamos también por nuestras <a class="cursor-pointer">chuches vegetarianas</a>,<a class="cursor-pointer">
+                     veganas</a
+                  >,<a class="cursor-pointer"> golosinas sin gluten</a>,<a class="cursor-pointer"> sin grasa</a>. Tratamos de desarrollar
+                  diferentes tipos de <strong>golosinas, chuches</strong> que satisfagan al mayor número de golosos. Actualmente, somos el
+                  fabricante más importante de golosinas con una tienda que te permite comprar <strong>chuches online</strong> y recibirlas
+                  en tu domicilio de forma cómoda en un plazo de 24 horas. Además, <strong>los portes son totalmente gratuitos</strong>, por
+                  lo que podrás disfrutar de tus <strong>golosinas y chuches</strong> favoritas de forma muy sencilla.
+               </p>
+               <p>
+                  A través de nuestra tienda online, también te ofrecemos la posibilidad de diseñar tus
+                  <strong>regalos con chuches</strong>. Si buscas <strong>regalos originales</strong> y quieres sorprender, entra en nuestra
+                  área de <a class="cursor-pointer">Regalo a Medida</a>, porque te ofrecemos una gran variedad de opciones para que combines
+                  tus <strong>bolsas de chuches favoritas, cajas de chuches</strong> con dedicatoria personalizada.
+               </p>
+            </article>
+            <article class="d-flex info-text flex-column gap-20">
+               <p>
+                  Sin embargo, si lo que estás es organizando una fiesta, evento, entra en un área
+                  <a class="cursor-pointer">Sweet Party</a>, donde podrás diseñar tus <strong>mesas dulces</strong> para
+                  <strong>bodas, comuniones, bautizos, etc.</strong> Estas <strong>mesas de chuches</strong>, vienen diferenciadas por
+                  temáticas, color, de tal modo que te facilitará mucho montar tu <strong>candy bar</strong> con
+                  <strong>chuches originales.</strong>
+               </p>
+               <p>
+                  También ofrecemos nuestros <strong>Sweet Partys</strong>, que son expositores con envases, bolsas y pinzas, para darte una
+                  solución cerrada. Podrás seleccionar las <strong>golosinas</strong> y <strong>chuches</strong> que más os interesen,
+                  <a class="cursor-pointer"> chuches sin gluten </a>,<a class="cursor-pointer"> chuches envueltas</a>,<a
+                     class="cursor-pointer">
+                     chuches azules</a
+                  >,<a class="cursor-pointer"> chuches rosas</a>,<a class="cursor-pointer"> chuches verdes</a>,<a class="cursor-pointer">
+                     chuches amarillas</a
+                  >,<a class="cursor-pointer"> chuches rojas y blancas</a>,<a class="cursor-pointer"> chuches rosas y blancas </a>, etc.
+               </p>
+               <p>
+                  Tus bolsas de
+                  <strong
+                     >chuches originales, cucuruchos de chuches, cajas de chuches regalo, paquetes de chuches, bolsas de chuches, conos de
+                     chuches, chuches para cumpleaños, chuches para comuniones, cajas de golosinas para regalar</strong
+                  >, cualquier <strong>golosina</strong> que busques, podrás encontrarlo en <strong>Tienda Vidal Golosinas</strong>.
+               </p>
+               <p>
+                  Si tienes una <strong>tienda de golosinas</strong> y buscas <strong>comprar golosinas online al por mayor</strong>, podrá
+                  comprar a través de nuestra tienda online con una tarifa especial. ¿A qué esperas?
+                  <a class="cursor-pointer">Regístrate</a> y haz tu primer pedido. Recuerda que podrás disfrutar de un 10% de descuento si
+                  te registras en nuestra Newsletter.
+               </p>
+            </article>
+         </section>
       </main>
-      <footer></footer>
+      <footer class="main-spacing">
+         <div class="d-grid footer-content gap-20">
+            <div class="column logo-footer relative">
+               <img src="https://www.vidalgolosinas.com/media/footer/logo.svg" alt="logo vidal golosinas" class="cover-content-height" />
+            </div>
+            <div class="column">
+               <ul class="l-style-none">
+                  <li class="footer-title">AYUDA<img src="assets/cruz.png" alt="cruz" class="extra-small-icon d-none" /></li>
+                  <li class="cursor-pointer">COMPRAR EN TIENDA VIDAL</li>
+                  <li class="cursor-pointer">PRODUCTO</li>
+                  <li class="cursor-pointer">OPCIONES PARA REGALO</li>
+                  <li class="cursor-pointer">PAGO SEGURO</li>
+                  <li class="cursor-pointer">ENVÍO Y ENTREGA</li>
+                  <li class="cursor-pointer">CAMBIOS Y DEVOLUCIONES</li>
+                  <li class="cursor-pointer">MI CUENTA</li>
+               </ul>
+            </div>
+            <div class="column">
+               <ul class="l-style-none">
+                  <li class="footer-title">SÍGUENOS<img src="assets/cruz.png" alt="cruz" class="extra-small-icon d-none" /></li>
+                  <li class="cursor-pointer">NEWSLETTER</li>
+                  <li class="cursor-pointer">INSTAGRAM</li>
+                  <li class="cursor-pointer">FACEBOOK</li>
+                  <li class="cursor-pointer">X</li>
+                  <li class="cursor-pointer">PINTEREST</li>
+                  <li class="cursor-pointer">YOUTUBE</li>
+                  <li class="cursor-pointer">LINKEDIN</li>
+                  <li class="cursor-pointer">TIK TOK</li>
+               </ul>
+            </div>
+            <div class="column">
+               <ul class="l-style-none">
+                  <li class="footer-title">EMPRESA<img src="assets/cruz.png" alt="cruz" class="extra-small-icon d-none" /></li>
+                  <li class="cursor-pointer">QUIÉNES SOMOS</li>
+                  <li class="cursor-pointer">CHUCHES AL POR MAYOR</li>
+                  <li class="cursor-pointer">TRABAJA CON NOSOTROS</li>
+                  <li class="cursor-pointer">COLABORACIONES</li>
+                  <li class="cursor-pointer">¿QUIERES SER DISTRIBUIDOR?</li>
+                  <li class="cursor-pointer">ATENCIÓN AL CLIENTE</li>
+                  <li class="cursor-pointer">CANAL DE DENUNCIAS</li>
+                  <li class="cursor-pointer">JUNTA DE ACCIONISTAS</li>
+                  <li class="cursor-pointer">ESTADO DE INFORMACIÓN NO FINANCIERA</li>
+               </ul>
+            </div>
+            <div class="column">
+               <ul class="l-style-none">
+                  <li class="footer-title">POLÍTICAS<img src="assets/cruz.png" alt="cruz" class="extra-small-icon d-none" /></li>
+                  <li class="cursor-pointer">POLÍTICA DE PRIVACIDAD</li>
+                  <li class="cursor-pointer">AVISO LEGAL</li>
+                  <li class="cursor-pointer">CONDICIONES GENERALES DE COMPRA</li>
+                  <li class="cursor-pointer">POLÍTICA DE COOKIES</li>
+                  <li class="cursor-pointer">POLÍTICA DE CALIDAD</li>
+               </ul>
+            </div>
+            <div class="column d-flex flex-column">
+               <div class="fila">
+                  <div class="certificado">
+                     <img src="https://www.vidalgolosinas.com/media/footer/logo-iso-9001.svg" alt="ISO 90001" />
+                  </div>
+                  <div class="certificado">
+                     <img src="https://www.vidalgolosinas.com/media/footer/logo-iqnet.svg" alt="IQNET" />
+                  </div>
+                  <div class="certificado">
+                     <img src="https://www.vidalgolosinas.com/media/footer/logo-ifs.svg" alt="IFS food" />
+                  </div>
+                  <div class="certificado">
+                     <img src="https://www.vidalgolosinas.com/media/footer/logo-brcs.svg" alt="BRCS" />
+                  </div>
+                  <div class="certificado">
+                     <img src="https://www.vidalgolosinas.com/media/footer/logo-rspo.svg" alt="RSPO" />
+                  </div>
+                  <div class="certificado">
+                     <img src="https://www.vidalgolosinas.com/media/footer/logo-kf.svg" alt="KF" />
+                  </div>
+                  <div class="certificado">
+                     <img src="https://www.vidalgolosinas.com/media/footer/logo-halal.svg" alt="Halal" />
+                  </div>
+               </div>
+               <div class="fila">
+                  <div class="certificado">
+                     <img src="https://www.vidalgolosinas.com/media/footer/union-europea.svg" alt="Unión Europea" />
+                  </div>
+                  <div class="certificado">
+                     <img src="https://www.vidalgolosinas.com/media/footer/region-de-murcia.svg" alt="Región de Murcia" />
+                  </div>
+                  <div class="certificado">
+                     <img src="https://www.vidalgolosinas.com/media/footer/eficiencia-energetica.svg" alt="Eficiencia Energética" />
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
    </body>
 </html>
